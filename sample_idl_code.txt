@@ -1,0 +1,29 @@
+  nan = !values.d_nan
+  snan = 'NaN'
+  input_data = {host_name:snan, host_ra:nan, host_dec:nan, host_pmra:nan, host_pmdec:nan, host_epmra:nan, host_epmdec:nan, host_rv:nan, host_erv:nan, $
+    host_plx:nan, host_eplx:nan, companion_name:snan, companion_ra:nan, companion_dec:nan, $
+    companion_pmra:nan, companion_epmra:nan, companion_pmdec:nan, companion_epmdec:nan, $
+    companion_rv:nan, companion_erv:nan, companion_plx:nan, companion_eplx:nan}
+
+  input_data.HOST_RA = 190.88751d0
+  input_data.HOST_DEC = 60.014355d0
+  input_data.HOST_PMRA = -126.40d0
+  input_data.HOST_PMDEC = -64.14d0
+  input_data.HOST_EPMRA = 0.01d0
+  input_data.HOST_EPMDEC = 0.02d0
+  input_data.HOST_RV = -10.2
+  input_data.HOST_ERV = 0.2
+  input_data.HOST_PLX = 22.24d0
+  input_data.HOST_EPLX = 0.01d0
+
+  input_data.COMPANION_RA = 190.8838648d0
+  input_data.COMPANION_DEC = 60.0239567d0
+  input_data.COMPANION_PMRA = -133d0
+  input_data.COMPANION_EPMRA = 8d0
+  input_data.COMPANION_PMDEC = -55d0
+  input_data.COMPANION_EPMDEC = 8d0
+  input_data.COMPANION_PLX = 1d3/44d0
+  input_data.COMPANION_EPLX = 1d3/44d0^2*4d0
+
+  common_pm_banyan, input_data, out
+  help, out
