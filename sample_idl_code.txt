@@ -30,11 +30,11 @@
   help, out
   
   ;Those should be the outputs
-  IDL> common_pm_banyan, input_data, out, MASS_HOST=0.27d0
-  IDL> help, out
-  FIELD P = 0.0%
-  Comoving probability = 100.0%
-  LN_P comover = 0.00
-  LN_P field = -10.70
-  XYZ Separation = 0.3 pc
-  UVW Separation = 7.4 km/s
+;  IDL> common_pm_banyan, input_data, out, MASS_HOST=0.27d0
+;  IDL> help, out
+;  FIELD P = 0.0%
+;  Comoving probability = 100.0%
+;  LN_P comover = 0.00
+;  LN_P field = -10.70
+;  XYZ Separation = 0.3 pc
+;  UVW Separation = 7.4 km/s
